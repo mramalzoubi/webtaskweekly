@@ -1,1 +1,144 @@
-css
+/* أسلوب عام */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fffafc;
+}
+
+/* الرأس */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fddde6;
+}
+
+header .logo-search {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header input {
+    padding: 5px;
+    border: 1px solid #f1a8c0;
+    border-radius: 5px;
+}
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav .cart {
+    background-color: #f06292;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* قسم البطل */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #fce4ec;
+    color: #ad1457;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #f06292;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* المنتجات المميزة */
+.featured-products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    border: 1px solid #f1a8c0;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* النشرة البريدية */
+.newsletter {
+    background-color: #fddde6;
+    text-align: center;
+    padding: 20px;
+}
+
+.newsletter input {
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #f1a8c0;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #f06292;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* قسم حولنا */
+.about {
+    text-align: center;
+    padding: 20px;
+    background-color: #fffafc;
+    color: #ad1457;
+}
+
+/* التذييل */
+footer {
+    background-color: #fddde6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+footer .footer-section {
+    margin: 10px;
+    flex: 1;
+}
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: #ad1457;
+    margin: 5px 0;
+}
