@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car shop</title>
+    <title>Jewelry Shop</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div>
-            <img src="lo.jpg" alt="Logo" width="30" height="30">
-            <input type="text" placeholder="Search...">
+        <div class="logo-search">
+            <img src="https://e7.pngegg.com/pngimages/186/970/png-clipart-logo-jewellery-mobius-jewelry-design-llc-silver-jewellery-miscellaneous-fashion.png" alt="Jewelry Shop Logo">
+            <input type="text" placeholder="Search for jewelry...">
         </div>
         <nav>
             <a href="#">Home</a>
@@ -21,77 +22,56 @@
     </header>
 
     <section class="hero">
-        <h1>Tagline describing your e-shop</h1>
+        <h1>Shine Bright with Our Exquisite Jewelry</h1>
         <button>Shop Now</button>
     </section>
 
     <section class="featured-products">
-        <h2>Featured Products</h2>
-        <div>
+        <h2>Featured Jewelry</h2>
+        <div class="product-grid">
             <div class="product">
-                <img src="placeholder.png" alt="Product Image">
-                <p>Product Name</p>
-                <p>$300</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPDnXn_SG7bUSMpMX00A3HfO0OAJM-uLyV0w&s" alt="Golden Necklace">
+                <p>Golden Necklace</p>
+                <p>$500</p>
             </div>
             <div class="product">
-                <img src="placeholder.png" alt="Product Image">
-                <p>Product Name</p>
-                <p>$300</p>
+                <img src="https://s.alicdn.com/@sc04/kf/H751d4f9784314c48ba9358326065e2e7p.jpg_720x720q50.jpg" alt="Diamond Ring">
+                <p>Diamond Ring</p>
+                <p>$1000</p>
             </div>
         </div>
     </section>
 
     <section class="newsletter">
-        <h3>Newsletter</h3>
-        <p>Stay updated with our latest products and offers!</p>
-        <input type="text" placeholder="Enter your email">
+        <h3>Join Our Newsletter</h3>
+        <p>Get the latest updates and special offers!</p>
+        <input type="email" placeholder="Enter your email">
         <button>Subscribe</button>
     </section>
 
-    <section class="product-list">
-        <div>
-            <div class="product">
-                <img src="placeholder.png" alt="Product Image">
-                <p>Product Name</p>
-                <p>$300</p>
-                <p>★★★★☆</p>
-            </div>
-            <!-- Repeat product items as needed -->
-        </div>
-    </section>
-
     <section class="about">
-        <h3>About Your Shop</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque.</p>
+        <h3>About Our Jewelry Shop</h3>
+        <p>Discover timeless elegance with our hand-crafted jewelry designed to dazzle.</p>
     </section>
 
     <footer>
-        <div>
-            <p>1717 Harrison St, San Francisco, CA 94103, USA</p>
-            <p>Your Company Name</p>
+        <div class="footer-section">
+            <h4>Contact Us</h4>
+            <p>1717 Harrison St, San Francisco, CA</p>
+            <p>Phone: (123) 456-7890</p>
         </div>
-        <div>
-            <h4>Main Menu</h4>
+        <div class="footer-section">
+            <h4>Quick Links</h4>
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Shop</a>
             <a href="#">Help</a>
         </div>
-        <div>
-            <h4>Company</h4>
-            <a href="#">Careers</a>
-            <a href="#">Press</a>
-        </div>
-        <div>
-            <h4>Discover</h4>
-            <a href="#">The Team</a>
-            <a href="#">Our History</a>
-        </div>
-        <div>
-            <h4>Find Us On</h4>
+        <div class="footer-section">
+            <h4>Follow Us</h4>
             <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
             <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
         </div>
     </footer>
 </body>
